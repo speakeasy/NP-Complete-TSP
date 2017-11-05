@@ -1,0 +1,103 @@
+\hypertarget{classRandomCoords_1_1RandomCoords}{}\section{Random\+Coords.\+Random\+Coords Class Reference}
+\label{classRandomCoords_1_1RandomCoords}\index{Random\+Coords.\+Random\+Coords@{Random\+Coords.\+Random\+Coords}}
+
+
+Class that generates random coordinates for creating and testing T\+SP problems.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classRandomCoords_1_1RandomCoords_affcafc1cd38eef6073093ed430cebcf3}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em The constructor. \end{DoxyCompactList}\item 
+def \hyperlink{classRandomCoords_1_1RandomCoords_adadcbdd1f667b67552fad916310404f5}{get\+\_\+rand\+\_\+coords\+\_\+arr} (self, n=2)
+\begin{DoxyCompactList}\small\item\em Get a number of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. \end{DoxyCompactList}\item 
+def \hyperlink{classRandomCoords_1_1RandomCoords_a1b2cc7018aaaea85d0cf14dc6e66ed21}{get\+\_\+rand\+\_\+ne} (self)
+\begin{DoxyCompactList}\small\item\em Get a pair of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. \end{DoxyCompactList}\item 
+def \hyperlink{classRandomCoords_1_1RandomCoords_a27a36aba4e239990fe8908ad092515f4}{get\+\_\+rand\+\_\+coord2d} (self)
+\begin{DoxyCompactList}\small\item\em Get a pair of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that generates random coordinates for creating and testing T\+SP problems. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRandomCoords_1_1RandomCoords_affcafc1cd38eef6073093ed430cebcf3}\label{classRandomCoords_1_1RandomCoords_affcafc1cd38eef6073093ed430cebcf3}} 
+\index{Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Random\+Coords.\+Random\+Coords.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+The constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classRandomCoords_1_1RandomCoords_a27a36aba4e239990fe8908ad092515f4}\label{classRandomCoords_1_1RandomCoords_a27a36aba4e239990fe8908ad092515f4}} 
+\index{Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}!get\+\_\+rand\+\_\+coord2d@{get\+\_\+rand\+\_\+coord2d}}
+\index{get\+\_\+rand\+\_\+coord2d@{get\+\_\+rand\+\_\+coord2d}!Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}}
+\subsubsection{\texorpdfstring{get\+\_\+rand\+\_\+coord2d()}{get\_rand\_coord2d()}}
+{\footnotesize\ttfamily def Random\+Coords.\+Random\+Coords.\+get\+\_\+rand\+\_\+coord2d (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Get a pair of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object\\
+\hline
+\end{DoxyParams}
+\+: Coord2d \begin{DoxyReturn}{Returns}
+\+: A random pair of coordinates N and E (+/-\/ 180 degrees) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRandomCoords_1_1RandomCoords_adadcbdd1f667b67552fad916310404f5}\label{classRandomCoords_1_1RandomCoords_adadcbdd1f667b67552fad916310404f5}} 
+\index{Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}!get\+\_\+rand\+\_\+coords\+\_\+arr@{get\+\_\+rand\+\_\+coords\+\_\+arr}}
+\index{get\+\_\+rand\+\_\+coords\+\_\+arr@{get\+\_\+rand\+\_\+coords\+\_\+arr}!Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}}
+\subsubsection{\texorpdfstring{get\+\_\+rand\+\_\+coords\+\_\+arr()}{get\_rand\_coords\_arr()}}
+{\footnotesize\ttfamily def Random\+Coords.\+Random\+Coords.\+get\+\_\+rand\+\_\+coords\+\_\+arr (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{n = {\ttfamily 2} }\end{DoxyParamCaption})}
+
+
+
+Get a number of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object\\
+\hline
+\end{DoxyParams}
+n\+: int 
+\begin{DoxyParams}{Parameters}
+{\em n} & Number of coordinates to generate\\
+\hline
+\end{DoxyParams}
+\+: np.\+array(Coord2d...) \begin{DoxyReturn}{Returns}
+\+: an array of Coord2d objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRandomCoords_1_1RandomCoords_a1b2cc7018aaaea85d0cf14dc6e66ed21}\label{classRandomCoords_1_1RandomCoords_a1b2cc7018aaaea85d0cf14dc6e66ed21}} 
+\index{Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}!get\+\_\+rand\+\_\+ne@{get\+\_\+rand\+\_\+ne}}
+\index{get\+\_\+rand\+\_\+ne@{get\+\_\+rand\+\_\+ne}!Random\+Coords\+::\+Random\+Coords@{Random\+Coords\+::\+Random\+Coords}}
+\subsubsection{\texorpdfstring{get\+\_\+rand\+\_\+ne()}{get\_rand\_ne()}}
+{\footnotesize\ttfamily def Random\+Coords.\+Random\+Coords.\+get\+\_\+rand\+\_\+ne (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Get a pair of random coordinates  self\+: \hyperlink{classRandomCoords_1_1RandomCoords}{Random\+Coords}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object\\
+\hline
+\end{DoxyParams}
+\+: np.\+array(\+Float, Float) \begin{DoxyReturn}{Returns}
+\+: A random pair of coordinates N and E (+/-\/ 180 degrees) 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Utils/Random\+Coords.\+py\end{DoxyCompactItemize}
